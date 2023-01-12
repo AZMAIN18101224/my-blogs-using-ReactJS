@@ -1,0 +1,29 @@
+{
+    "blogs": [
+        {
+            "title": "My First Blog",
+            "body": "This is the body",
+            "author": "Mario",
+            "id": 1
+        },
+        {
+            "title": "My Website",
+            "body": "This is the body",
+            "author": "Lucy",
+            "id": 2
+        },
+        {
+            "title": "My New Website",
+            "body": "This is the body",
+            "author": "Rocky",
+            "id": 3
+        },
+        {
+            "title": "My old Website",
+            "body": "This is the body",
+            "author": "Robin",
+            "id": 4
+        }
+
+    ]
+}

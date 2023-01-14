@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Create from './Create';
 import Contact from './Contact';
 import BlogDetails from './BlogDetails';
+import NotFound from './NoteFound';
 
 function App() {
   
@@ -24,6 +25,9 @@ function App() {
             </Route>
             <Route exact path="/blogs/:id">
               <BlogDetails />
+            </Route>
+            <Route exact path="*">
+              <NotFound />
             </Route>
           </Switch>
         </div>     

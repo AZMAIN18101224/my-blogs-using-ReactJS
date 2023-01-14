@@ -10,23 +10,32 @@
   align-items: center;
   max-width: 600px;
   margin: 0 auto;
-  border-bottom: 1px solid #f2f2f2;
+  border-bottom: 1px solid #f2f2f200;
+  background: rgba(37, 165, 245, 0.194);
+  border-radius: 10px;
+  backdrop-filter: 5px;
 }
 
 .navbar h1{
   color: turquoise;
+  background: transparent;
+  
 }
 .navbar .links{
   margin-left: auto;
+  background:transparent;
 }
 
 .navbar a{
   margin-left: 16px;
   text-decoration: none;
   padding: 6px;
+  background:transparent;
 }
 .navbar a:hover{
-  color: turquoise;
+  color: rgb(70, 252, 234);
+  background:transparent;
+  font-weight: bolder;
 }
 
 .content {
@@ -40,6 +49,8 @@ button{
   background-color: turquoise;
   color: black;
   font-weight: bolder;
+  padding: 6px;
+  font-size: 14px;
 }
 button:hover{
   transform: scale(1.2);
@@ -66,9 +77,12 @@ button:hover{
   font-size: 25px;
   color: rgb(24, 154, 141);
   margin-bottom: 10px;
+  padding-top: 10px;
 }
 .blog-deatils div{
   margin: 20px 0;
+  text-align: justify;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* .blog-deatils button{
@@ -79,3 +93,67 @@ button:hover{
   border-radius: 8px;
   cursor: pointer;
 } */
+
+.create{
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.create label{
+  text-align: left;
+  display: block;
+}
+
+.create h2{
+  font-size: 20px;
+  color: turquoise;
+  margin-bottom: 30px;
+}
+
+.create input, .create textarea, .create select{
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid rgba(64, 224, 208, 0.525);
+  box-sizing: border-box;
+  display: block;
+ 
+}
+
+.create input:hover, .create textarea:hover, .create select:hover{
+  background-color: rgba(37, 217, 245, 0.253);
+}
+
+.create button{
+  background-color: turquoise;
+  color: black;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.not-found{
+  text-align: center;
+  
+}
+.not-found .link{
+  text-decoration: 0;
+  color: turquoise;
+  border-bottom: 1px solid white;
+  font-size: 25px;
+  background: transparent;
+}
+
+.not-found h2{
+  font-size: 90px;
+  text-align: center;
+}
+
+.not-found p{
+  font-size: 50px;
+  text-align: center;
+  color: darkturquoise;
+  font-weight: bolder;
+}
